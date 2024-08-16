@@ -1,0 +1,195 @@
+body{
+    background-color: #040E1E;
+}
+.container1 {
+    background: url("mountain.jpg");
+    background-size:cover;
+    background-attachment:inherit;    
+    text-align: center;
+    color: white;
+    height: 735px;
+    width: auto;
+  }
+  .centered {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.top{
+    position: absolute;
+    top: 0px;
+}
+
+.image img{
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 735px;
+    width:100%;
+}
+
+
+.template{
+    color: white;
+    margin-top: 40px;
+ 
+}
+
+.template h1{
+    font-weight: 700;
+    font-size:60px;
+}
+.template h3{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.about_me{
+    color: white;
+    padding-top: 10%;
+    background-color: #040E1E;
+    padding: 10%;
+}
+.about_me h2{
+    font-weight:700;
+    padding-bottom: 10%;
+    font-size: 40px;
+}
+.para{
+    font-size: 20px;
+}
+ .project{
+    background-color: #040E1E;
+ }
+.project h1{
+    /* background-color: #040E1E; */
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.carousel{
+    background-color: #040E1E;
+
+}
+#carouselExample .carousel-inner .carousel-item img{
+    width: 25%;
+    height: 700px;
+    position: relative;
+    left:38.5%;
+}
+
+.contact{
+    color: white;
+    padding-top:10%;
+    /* font-size: 60px; */
+    background-color: #040E1E;
+    margin: 0;
+}
+
+.contact h6{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-contact{
+    margin-top: -20px;
+    color: white;
+    background-color: #040E1E;
+}
+
+form{
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 30px;
+}
+form input{
+    padding-right: 80% ;
+    padding-top:5px;
+    padding-bottom:5px  ;
+}
+.btn{
+   margin-top:50px !important;
+    display: block !important;
+    margin: auto;
+}
+
+
+/* media query */
+/* @media screen and ( max-width:767px ){
+    #carouselExample .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 700px;
+        position: relative;
+        left:33.5%;
+    }
+    
+} */
+
+@media only screen and (max-width: 1200px){
+    .container1 {
+        background: url("mountain.jpg");
+        background-size:cover;
+        background-attachment:inherit;    
+        text-align: center;
+        color: white;
+        height: 100;
+        width: auto;
+      }
+
+      #carouselExample .carousel-inner .carousel-item img{
+        width:70%;
+        height: 700px;
+        position: relative;
+        left:15%;
+    }
+    
+      form{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 30px;
+    }
+    form input{
+        padding-right:45% ;
+        padding-top:5px;
+        padding-bottom:5px  ;
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+    .container1 {
+        background: url("mountain.jpg");
+        background-size:cover;
+        background-attachment:inherit;    
+        text-align: center;
+        color: white;
+        height: 100;
+        width: auto;
+      }
+
+      #carouselExample .carousel-inner .carousel-item img{
+        width:80%;
+        height: 700px;
+        position: relative;
+        left:10%;
+    }
+    
+      form{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 30px;
+    }
+    form input{
+        padding-right:45% ;
+        padding-top:5px;
+        padding-bottom:5px  ;
+    }
+
+}
